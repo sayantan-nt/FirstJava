@@ -1,27 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.ibm.adc</groupId>
-	<artifactId>salt-adc-common</artifactId>
-	<packaging>pom</packaging>
-	<version>1.20.1.7</version>
-
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-assembly-plugin</artifactId>
-				<version>3.0.0</version>
-				<configuration>
-					<appendAssemblyId>true</appendAssemblyId>
-					<finalName>${project.name}-${project.version}</finalName>
-					<descriptors>
-						<descriptor>src/main/assembly-salt.xml</descriptor>
-					</descriptors>
-				</configuration>
-			</plugin>
-		</plugins>		
-	</build>
+	<groupId>FirstJava</groupId>
+	<artifactId>FirstJavaCode</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0.0</version>
 	
 </project>
